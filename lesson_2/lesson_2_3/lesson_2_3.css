@@ -1,0 +1,15 @@
+.block1, .block2, .block3{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniBlock1, .miniBlock2, .miniBlock3{
+    width: 32%;
+    height: 100%;
+    background-color: #3434da;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}

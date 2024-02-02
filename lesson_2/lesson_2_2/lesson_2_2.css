@@ -1,0 +1,18 @@
+.squares{
+    height: 200px;
+    background-color: #e1b8c1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.square1, .square2, .square3, .square4, .square5, .square6{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: 1s;
+}
+.square1:hover, .square2:hover, .square3:hover, .square4:hover, .square5:hover, .square6:hover{
+    background-color: darkgray;
+    border-radius: 50%;
+    transition: 2s;
+}

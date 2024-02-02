@@ -1,0 +1,25 @@
+.boxes{
+    height: 200px;
+display: flex;
+    justify-content: space-around;
+
+}
+.box1, .box2, .box3, .box4, .box5{
+    width: 200px;
+    height: 200px;
+    background-color: #f8d3da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.text1,.text2, .text3, .text4, .text5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

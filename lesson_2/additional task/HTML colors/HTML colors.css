@@ -1,0 +1,21 @@
+body{
+    background-color: #e8e8ea;
+}
+.listColors1, .listColors2, h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.black, .red, .green, .blue, .fuchsia, .white, .yellow, .purple, .maroon, .olive{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+.white, .yellow{
+    color: black;
+}
+

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.pink, .black{
+    height: 50vh;
+    text-align: center;
+}
+h1{
+    margin-top: 0;
+    padding: 50px;
+}

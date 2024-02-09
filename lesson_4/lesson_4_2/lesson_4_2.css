@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.block{
+
+    height: 100vh;
+    background-color: #dee4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.center{
+    width: 40vw;
+    height: 80vh;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 10px;
+}
+.footer{
+  width: 40vw;
+    height: 20vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="name"], input[type="password"]{
+    width: 350px;
+    height: 50px;
+    background-color: #ebf5f5;
+    margin: 5px;
+    border: 2px solid #dcd8d8;
+    border-radius: 4px;
+    font-size: 20px;
+}
+#button{
+    width: 360px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #8fc3e8;
+    color: white;
+    border: none;
+
+}
+.sec1, .sec2, .sec3{
+    font-size: 30px;
+    margin: 10px;
+    color: #3b5788;
+    border: none;
+    background-color: white;
+
+}
+.sec2{
+    flex-direction: column;
+}
+#text1, #text2{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #1c87d0;
+}
+.blockFacebook{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+}
+.textFacebook{
+    font-size: 40px;
+    width: 350px;
+    margin-left: 10px;
+}
+.iconFacebook{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    margin-left: 20px;
+
+}
+.btn {
+    width: 400px;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #3b5788;
+}
+

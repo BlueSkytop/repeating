@@ -58,16 +58,16 @@ text-decoration: none;
     margin-top: 50px;
 }
 .box2_2{
-    width: 919px;
+    width: 560px;
     height: 153px;
-    margin: 25px;
+    font-size: 25px;
     color: #000;
     font-family: 'KoHo', sans-serif;
 }
 
 .box3_1, .box3_2, .box3_3{
    width: 30vw;
-    height: 85vh;
+    height: 87vh;
     background: rgba(83, 83, 83, 0.40);
     color: #000;
     font-family: 'KoHo', sans-serif;

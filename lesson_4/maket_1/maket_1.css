@@ -1,0 +1,103 @@
+body{
+    margin:0;
+}
+.page_1{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_2{
+    background-image: url('img/Rectangle 4.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    align-content: space-around;
+}
+.page_3{
+    background-image: url('img/Rectangle 4.jpg');
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+text-decoration: none;
+    color: #000;
+}
+.box1_2{
+    width: 529px;
+    height: 393px;
+    background-color: #FAF9F7;
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#buttonPage1{
+    width: 410px;
+    height: 80px;
+    border-radius: 5px;
+    color: #000000;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    font-size: 30px;
+}
+.box2_1{
+    margin-top: 50px;
+}
+.box2_2{
+    width: 919px;
+    height: 153px;
+    margin: 25px;
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+}
+
+.box3_1, .box3_2, .box3_3{
+   width: 30vw;
+    height: 85vh;
+    background: rgba(83, 83, 83, 0.40);
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.img3_1, .img3_2, .img3_3{
+    margin-top: 25px;
+}
+button{
+    width: 27vw;
+    height: 10vh;
+    border-radius: 5px;
+    color: #6B6666;
+    font-size: 35px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.p3_1,.p3_2,.p3_3{
+    margin: 0 0 25px 0;
+    font-size: 32px;
+}
+.price3_1, .price3_2, .price3_3{
+    margin: 40px 0 20px 0;
+    font-size: 35px;
+}
+span{
+    font-size: 35px;
+}

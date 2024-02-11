@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.block5{
+    width: 100vw;
+    height: 100vh;
+}
+.header5, .sections{
+    display: flex;
+    justify-content: center;
+}
+.header5{
+    height: 22vh;
+    background-color: #D9D9D9;
+}
+.sections{
+   display: flex;
+    justify-content: center;
+}
+.section5_1, .section5_2, .section5_3, .section5_4, .section5_5{
+    width: 20vw;
+    height: 56vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer5{
+    height: 22vh;
+    background-color: #BDBDBD;
+}
+.header5, .footer5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

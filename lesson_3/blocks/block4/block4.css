@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.block4{
+    width: 100vw;
+    height: 100vh;
+}
+.header4, .contentLeft4, .center4, .contentRight4, .footer4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header4{
+    height: 22vh;
+    background-color: #927D7D;
+}
+.contents4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentLeft4{
+    width: 20.5vw;
+    height: 56vh;
+   background-color: #CCC;
+}
+.center4{
+    width: 60vw;
+    height: 56vh;
+    background-color: #A74848;
+}
+.contentRight4{
+    width: 19.5vw;
+    height: 56vh;
+    background-color: #B7AEAE;
+}
+.footer4{
+    height: 22vh;
+    background-color: #BDBDBD;
+}

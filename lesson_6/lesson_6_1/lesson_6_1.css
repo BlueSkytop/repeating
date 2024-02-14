@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.block1{
+    height: 34vh;
+    background-color: #e1dede;
+    border: 2px solid black;
+    margin: 10px;
+}
+.block2{
+    height: 66vh;
+    display: flex;
+}
+.block2_1{
+    width: 70vw;
+    height: 66vh;
+    background-color: grey;
+    border: 2px solid black;
+    margin: 10px;
+}
+.block2_2{
+    width: 30vw;
+    height: 66vh;
+    background-color: #525050;
+    border: 2px solid black;
+    margin: 10px;
+}

@@ -1,0 +1,18 @@
+@media screen  and (min-width: 300px) and (max-width: 700px) {
+    .links{
+        flex-direction: column;
+    }
+    .link1, .link2, .link3, .link4 {
+        width: 100vw;
+        height: 3vh;
+        border-radius: 5px;
+        margin: 2px;
+    }
+    .banner{
+        height: 17vh;
+    }
+    .banner>p{
+
+        text-align: center;
+    }
+}

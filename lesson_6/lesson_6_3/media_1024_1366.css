@@ -1,0 +1,9 @@
+@media screen  and (min-width: 1000px) and (max-width: 1400px) {
+    .link1, .link2, .link3, .link4 {
+        width: 10vw;
+        height: 3vh;
+    }
+    .banner>p{
+        margin: 40px 80px 0 0;
+    }
+}

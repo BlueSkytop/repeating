@@ -1,0 +1,17 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+.block1{
+    width: 100vw;
+    height: 20vh;
+}
+    .block2{
+        flex-direction: column;
+    }
+    .block2_1{
+        width: 100vw;
+        height: 60vh;
+    }
+    .block2_2{
+        width: 100vw;
+        height: 20vh;
+    }
+}

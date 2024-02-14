@@ -1,0 +1,27 @@
+@media screen  and (min-width: 300px) and (max-width: 500px){
+header{
+    height: 20vh;
+}
+    .blocks{
+        flex-direction: column;
+    }
+    .left{
+        width: 100vw;
+        height: 50vh;
+    }
+    .center{
+        width: 100vw;
+        height: 30vh;
+    }
+    .miniBlocks{
+    width: 100vw;
+    height: 20vh
+    }
+    .c, .d, .e{
+       height: 15vh;
+    }
+    .right{
+        width: 100vw;
+        height: 35vh;
+    }
+}

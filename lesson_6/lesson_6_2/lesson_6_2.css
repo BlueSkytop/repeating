@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+header{
+    height: 30vh;
+    background-color: #cecbcb;
+    display: flex;
+    margin: 10px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 70vw;
+    height: 60vh;
+    flex-direction: column;
+}
+.center{
+    width: 69.5vw;
+    height: 30vh;
+    background-color: #cecbcb;
+    margin: 0 10px 0 10px;
+}
+.miniBlocks{
+    width: 70vw;
+    height: 30vh;
+    margin: 10px 10px 10px 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.c, .d, .e{
+    width: 30vw;
+    height: 30vh;
+    background-color: #cecbcb;
+    margin: 0 5px 5px 5px;
+}
+.right{
+    width: 30vw;
+    height: 61vh;
+    background-color: #cecbcb;
+    margin: 0 10px 10px 15px;
+}

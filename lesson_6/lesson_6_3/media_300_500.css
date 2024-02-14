@@ -1,4 +1,4 @@
-@media screen  and (min-width: 300px) and (max-width: 700px) {
+@media screen  and (min-width: 300px) and (max-width: 1000px) {
     .links{
         flex-direction: column;
     }
@@ -6,13 +6,29 @@
         width: 100vw;
         height: 3vh;
         border-radius: 5px;
-        margin: 2px;
+        font-size: 30px;
     }
     .banner{
-        height: 17vh;
+        height: 18vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
     }
-    .banner>p{
-
-        text-align: center;
+    .articles{
+        flex-direction: column;
+    }
+     .articleBlock1, .articleBlock2{
+      flex-direction: column;
+    }
+    .articleBlock1{
+        margin-bottom: 0;
+    }
+    .articleBlock2{
+        margin-top: 0;
+    }
+    .article1, .article2, .article3, .article4{
+        width: 100vw;
+        height: 15vh;
     }
 }

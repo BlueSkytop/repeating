@@ -5,8 +5,12 @@ body{
 header{
     height: 30vh;
     background-color: #cecbcb;
-    display: flex;
     margin: 10px;
+}
+header, .center, .c, .d, .e, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blocks{
     display: flex;

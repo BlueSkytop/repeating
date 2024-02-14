@@ -1,9 +1,23 @@
 @media screen  and (min-width: 1000px) and (max-width: 1400px) {
     .link1, .link2, .link3, .link4 {
-        width: 10vw;
+        width: 15vw;
         height: 3vh;
+        font-size: 30px;
     }
-    .banner>p{
-        margin: 40px 80px 0 0;
+    .banner{
+        height: 40vh;
+    }
+    .articles{
+        display: flex;
+    }
+    .articleBlock1{
+        margin-right: 0;
+    }
+    .articleBlock2{
+        margin-left: 0;
+    }
+    .article1, .article2, .article3, .article4{
+        width: 25vw;
+        height: 50vh;
     }
 }

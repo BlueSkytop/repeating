@@ -1,30 +1,56 @@
 body{
     margin: 0;
+    color: white;
+}
+.desktop{
+    flex-direction: column;
 }
 .links{
     display: flex;
 }
 .link1, .link2, .link3, .link4{
-    width: 10vw;
+    width: 8vw;
+    height: 5vh;
+    background-color: cornflowerblue;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.banner{
+    height: 40vh;
+    font-size: 44px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    margin: 0 2px 0 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+.articleBlock1, .articleBlock2{
+    width: 100vw;
+    height: 23vh;
+    margin: 2px;
+    display: flex;
+}
+.article1, .article2, .article3, .article4{
+    width: 50vw;
+    height: 23vh;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    font-size: 40px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
     height: 5vh;
     background-color: cornflowerblue;
     margin: 5px;
-    color: white;
-    font-size: 30px;
-}
-.link1>p, .link2>p, .link3>p, .link4>p{
-    text-align: center;
-    margin: 1px;
-}
-.banner{
-    height: 45vh;
-    background-color: cornflowerblue;
+    font-size: 40px;
     border-radius: 20px;
-    color: white;
     display: flex;
-    justify-content: flex-end;
-    font-size: 50px;
-}
-.banner>p{
-    margin: 10px 40px 10px 10px;
+    justify-content: center;
+    align-items: center;
 }

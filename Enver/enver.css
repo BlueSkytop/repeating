@@ -3,7 +3,7 @@ body{
 }
 header{
     height: 10vh;
-    background-color: #40a1a1;
+    background-color: #19191B;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,10 +26,10 @@ header a{
 .headerLogo div p{
     margin-left: 8px;
 }
+
 .block1{
-    width: 100vw;
     height: 100vh;
-    background-color: #4b6c6c;
+    background-color: #19191B;
     display: flex;
 }
 #button1{
@@ -58,7 +58,7 @@ header a{
 .left1{
     width: 50vw;
     height: 100vh;
-    background-color: chocolate;
+    background-color: #19191B;
 }
 .left1 p{
     color: rgba(255, 255, 255, 0.70);
@@ -71,12 +71,15 @@ header a{
     width: 205px;
     height: 60px;
     border-radius: 4px;
-    background-color: #5454D4;
+    background-color: #19191B;
     margin: 50px 0 0 125px;
+}
+.right1{
+    width: 40vw;
 }
 .right1 img{
     height: 100vh;
-    margin: 0 50px;
+    padding: 0 50px;
 }
 .text2{
     display: flex;
@@ -85,7 +88,7 @@ header a{
 .left2,.right2{
     width: 50vw;
     height: 180px;
-    background-color: #8a6752;
+    background-color: #19191B;
 }
 .right2{
     display: flex;
@@ -115,14 +118,14 @@ header a{
 .imgBlock{
     width: 100vw;
     height: 100vh;
-    background-color: #546480;
+    background-color: #19191B;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .block3{
     height: 50vh;
-    background-color: #236b6b;
+    background-color: #19191B;
     display: flex;
     justify-content: center;
 }
@@ -138,7 +141,7 @@ header a{
 .block4{
     width: 100vw;
     height: 100vh;
-    background-color: #658d62;
+    background-color: #19191B;
 }
 .row1, .row2{
     height: 50vh;
@@ -170,7 +173,7 @@ align-items: flex-start;
 .block5{
     width: 100vw;
     height: 100vh;
-    background-color: #5a6941;
+    background-color: #19191B;
 }
 .title5 h4{
     color:#FFF;
@@ -194,5 +197,31 @@ align-items: flex-start;
     justify-content: center;
     align-items: center;
     margin-top: 140px;
+}
+.block6{
+    height: 20vh;
+    background-color: #19191B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
 
+}
+.block6 img{
+    margin-left: 125px;
+}
+.block6 div p{
+    margin-left: 8px;
+}
+.right6{
+    color: rgba(255, 255, 255, 0.70);
+
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 900px;
 }

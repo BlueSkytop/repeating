@@ -1,0 +1,108 @@
+@media screen and (min-width: 370px) and (max-width: 700px){
+    body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+header{
+    height: 5vh;
+    justify-content: flex-start;
+    padding: 34px;
+    background-color: cadetblue;
+}
+    .headerLogo img{
+        width: 27px;
+        height: 27px;
+    }
+    nav, #button1{
+        display: none;
+    }
+    .block1, .block2, .block6, .block7, .row1, .row2{
+        flex-direction: column;
+    }
+    .block1, .block2{
+        height: 80vh;
+    }
+    .left1 h4{
+        width: 60vw;
+        margin-left: 34px;
+        font-size: 42px;
+        padding-top: 50px;
+    }
+    .left1 p{
+        width: 85vw;
+        margin-left:34px;
+    }
+    .left1{
+        width: 100vw;
+        height: 40vh;
+    }
+    .left2, .right2{
+        width: 100vw;
+    }
+    .text2{
+        flex-direction: column;
+    }
+    .left2 p{
+        width: 50vw;
+        margin-left: 34px;
+        font-size: 34px;
+    }
+    .right2{
+        margin: 0;
+    }
+    .right2 p{
+        width: 80vw;
+        margin-left: 0;
+        font-size: 25px;
+
+    }
+    .ourServices{
+        margin-left:34px;
+    }
+    #build{
+        width: 100vw;
+
+    }
+    .right1{
+        width: 100vw;
+    }
+    .right1 img{
+        width: 375px;
+        height: 405px;
+        padding: 0;
+    }
+    .imgBlock{
+        width: 325px;
+        height: 185px;
+    }
+    .block4{
+        flex-direction: column;
+    }
+    .title5 h4, .left2 p, .title3 p, .block6 p{
+        font-size: 35px;
+    }
+    .title5{
+        padding-top: 40px;
+    }
+    .content5_2, .content5_3{
+        display: none;
+    }
+   #button6{
+       width: 166px;
+       height: 44px;
+   }
+   .block7 img{
+       width: 27px;
+       height: 27px;
+   }
+   .content7 p{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       color: rgba(255, 255, 255, 0.70);
+       font-size: 18px;
+       font-family: "Lato", sans-serif;
+       font-weight: 700;
+   }
+}

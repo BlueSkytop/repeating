@@ -4,6 +4,7 @@ body{
 header{
     height: 10vh;
     background-color: #19191B;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,6 +29,7 @@ header a{
 }
 
 .block1{
+    width: 100vw;
     height: 100vh;
     background-color: #19191B;
     display: flex;
@@ -71,7 +73,7 @@ header a{
     width: 205px;
     height: 60px;
     border-radius: 4px;
-    background-color: #19191B;
+    background-color: #5454D4;
     margin: 50px 0 0 125px;
 }
 .right1{
@@ -171,7 +173,6 @@ align-items: flex-start;
     width: 350px;
 }
 .block5{
-    width: 100vw;
     height: 100vh;
     background-color: #19191B;
 }
@@ -199,6 +200,27 @@ align-items: flex-start;
     margin-top: 140px;
 }
 .block6{
+    height: 80vh;
+    background-color: #202023;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block6 p{
+    color: #FFF;
+    width: 55vw;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+#button6{
+    width: 205px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #5454D4;
+    color: white;
+}
+.block7{
     height: 20vh;
     background-color: #19191B;
     display: flex;
@@ -210,18 +232,21 @@ align-items: flex-start;
     font-weight: 700;
 
 }
-.block6 img{
+.block7 img{
     margin-left: 125px;
 }
-.block6 div p{
+.block7 div p{
     margin-left: 8px;
 }
-.right6{
+.right7{
     color: rgba(255, 255, 255, 0.70);
-
     text-align: right;
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-left: 900px;
 }
+.content7{
+    display: none;
+}
+

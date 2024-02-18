@@ -7,7 +7,7 @@ body{
 }
 header{
     height: 10vh;
-    background-color: #505027;
+    background-color: #19191B;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +26,6 @@ header{
 header a{
     text-decoration: none;
     font-family: "Lato", sans-serif;
-
     font-weight: 400;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.70);
@@ -50,8 +49,8 @@ header a{
 .block1{
     width: 100vw;
     height: 100vh;
-    background-color: #594434;
     display: flex;
+    background-color: #19191B;
 }
 
 .left .right{
@@ -59,9 +58,8 @@ header a{
     height: 100vh;
 }
 .left{
-    background-color: #d5a888;
-    margin-left: 5vw;
-    width: 40vw;
+    background-color: #19191B;
+    padding-left: 5vw;
 }
 #button2{
     width: 12vw;
@@ -78,8 +76,8 @@ header a{
     align-items: center;
 }
 .right img{
-    width: 45vw;
-    height: 75vh;
+    width: 52vw;
+    height: 80vh;
     margin-bottom: 70px;
 }
 .title1{
@@ -107,7 +105,7 @@ header a{
 .block2{
     width: 100vw;
     height: 20vh;
-    background-color: #56291e;
+    background-color: #19191B;
     display: flex;
 }
 .right1, .left1{
@@ -133,10 +131,9 @@ header a{
 .block3{
     width: 100vw;
     height: 100vh;
-    background-color: #563f44;
+    background-color: #19191B;
     justify-content: center;
     text-align: center;
-    align-items: flex-end;
 }
 .block3 img{
     width: 90vw;
@@ -148,8 +145,132 @@ header a{
     font-size: 60px;
     font-weight: 400;
     margin: 0;
-
 }
-
-
+.text3 p {
+    margin: 0 400px;
+}
+.block4{
+    width: 100vw;
+    height: 70vh;
+    background-color: #19191B;
+}
+.row1, .row2{
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.title1{
+    width: 30vw;
+}
+.square1 h6, .square2 h6,.square3 h6,.square4 h6,.square5 h6, .square6 h6{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 15px 0 0 0;
+}
+.square1 p, .square2 p, .square3 p, .square4 p, .square5 p, .square6 p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    width: 350px;
+}
+.square1, .title1 {
+   width: 390px;
+}
+.block5{
+    width: 100vw;
+    height: 90vh;
+    background-color: #19191B;
+}
+.title5 h4{
+    color:#FFF;
+    font-size: 58px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    margin: 0 0 0 125px;
+    padding-top: 70px;
+}
+.img5{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px 0 70px;
+}
+.content5_1, .content5_2, .content5_3{
+    width: 27vw;
+    height: 34vh;
+    background-color: #1E1E20;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.block6{
+    height: 80vh;
+    background-color: #202023;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block6 p{
+    color: #FFF;
+    width: 55vw;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+#button6{
+    width: 205px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #5454D4;
+    color: white;
+}
+.block7{
+    height: 20vh;
+    background-color: #19191B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+.block7 img{
+    margin-left: 125px;
+}
+.block7 div p{
+    margin-left: 8px;
+}
+.logo7{
+    display: flex;
+}
+.logo7 p{
+    margin: 0 0 0 3vw;
+}
+.logo7img{
+    margin-left: 4vw;
+}
+.right7{
+    color: #FFF;
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.right7 p{
+    margin-right: 5vw;
+}
+.content7{
+    display: none;
+}
 
